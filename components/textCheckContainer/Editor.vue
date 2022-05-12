@@ -85,8 +85,11 @@ const copy = () => {
         >
           <i class="ri-delete-bin-5-line ri-xl"></i>
         </button>
-        <button class="" @click="check(editorText, wrongLib, rightLib)">
-          Check!
+        <button
+          class="ml-4 mr-4 inline-flex items-center"
+          @click="check(editorText, wrongLib, rightLib)"
+        >
+          檢查!
         </button>
       </div>
       <editor-content :editor="editor" />
