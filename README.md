@@ -10,11 +10,6 @@ Make sure to install the dependencies:
 # yarn
 yarn install
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
@@ -22,7 +17,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Production
@@ -30,13 +25,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
@@ -45,4 +40,12 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) f
 
 ```
 You can use it on your server after build! Have Fun!
+```
+
+# .env config
+
+```
+SHEET_ID=[your google sheet id]
+
+KEY=[google service platform api key]
 ```
