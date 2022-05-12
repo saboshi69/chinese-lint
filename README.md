@@ -45,7 +45,11 @@ You can use it on your server after build! Have Fun!
 # .env config
 
 ```
-SHEET_ID=[your google sheet id]
+This project is using google sheet as database.
+Column A saves incorrect words and Column B saves correct words.
 
+Here's the necessary env variable to connect google sheet api:
+
+SHEET_ID=[your google sheet id]
 KEY=[google service platform api key]
 ```
