@@ -10,15 +10,15 @@ const { data, error, pending } = await useAsyncData("dictionary", async () => {
   return [wrong, right];
 });
 useHead({
-  title: "錯字偵測工具",
-  titleTemplate: "錯字偵測工具",
+  title: "中文錯字偵測工具",
+  titleTemplate: "中文錯字偵測工具",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
   meta: [
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     {
-      hid: "開源錯字偵測工具",
-      name: "開源錯字偵測工具",
+      hid: "開源中文錯字偵測工具",
+      name: "開源中文錯字偵測工具",
       content: "解放雙眼，精準校對，一鍵偵測錯別字。",
     },
   ],
@@ -43,7 +43,7 @@ useHead({
 
 <template>
   <div class="container mx-auto p-8">
-    <h3 class="text-[32px]">錯字偵測工具</h3>
+    <h3 class="text-[32px]">中文錯字偵測工具</h3>
     <p v-if="pending">準備啟動中...</p>
     <p v-if="error">連結資料庫時發生錯誤</p>
     <div v-if="data">
