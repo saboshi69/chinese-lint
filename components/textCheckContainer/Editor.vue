@@ -61,7 +61,7 @@ const copy = () => {
 </script>
 
 <template>
-  <div v-if="data" class="flex flex-col sm:flex-row">
+  <div v-if="data" class="w-full flex flex-col sm:flex-row">
     <div v-if="editor" class="w-full sm:w-1/2 mb-4">
       <div class="bg-gray-200 py-3 flex items-center">
         <button

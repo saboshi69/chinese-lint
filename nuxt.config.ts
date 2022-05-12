@@ -14,7 +14,8 @@ export default defineNuxtConfig({
       },
     },
   },
-  css: ["@/assets/style/global.scss", "~/remixicon/fonts/remixicon.css"],
+
+  css: ["@/assets/style/global.scss", "remixicon/fonts/remixicon.css"],
   vite: {
     plugins: [eslintPlugin()],
   },
