@@ -17,7 +17,15 @@ const { data, error, pending } = await useAsyncData("dictionary", async () => {
     <p v-if="pending">initializing...</p>
     <p v-if="error">something wrong sor</p>
     <div v-if="data">
-      <p>successfully initialize!</p>
+      <a
+        class="hover:underline text-green-500 inline-flex items-center mb-1"
+        target="_blank"
+        href="https://docs.google.com/spreadsheets/d/1qYJxQe3RcimD_bTFdSCdYDcbGzIMsVK0IkZ68p3jZus/edit?usp=sharing"
+      >
+        Database connected<span class="pl-1"
+          ><i class="ri-checkbox-circle-fill text-green-500"></i
+        ></span>
+      </a>
       <TextCheckContainer :data="data" />
     </div>
   </div>
