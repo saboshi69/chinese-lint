@@ -44,5 +44,5 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) f
 # chinese-lint
 
 ```
-You can use it on your server after build!
+You can use it on your server after build! Have Fun!
 ```
